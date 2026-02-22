@@ -1,5 +1,5 @@
 import React, { useState, createContext, useContext, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useParams, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useParams, useLocation, useNavigate } from 'react-router-dom';
 import { ShoppingCart, Search, User, Menu, X, Heart, Ruler, Check, ChevronRight, LogOut } from 'lucide-react';
 import { products, collections } from './data/products';
 import { supabase } from './utils/supabaseClient';
